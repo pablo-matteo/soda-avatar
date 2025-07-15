@@ -1,0 +1,14 @@
+{
+  "name": "soda-avatar-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.27.2",
+    "@fastify/cors": "^8.4.0",
+    "@fastify/rate-limit": "^8.1.1"
+  }
+}

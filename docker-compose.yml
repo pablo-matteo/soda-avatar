@@ -1,0 +1,13 @@
+services:
+  avatar-api:
+    build: .
+    container_name: avatar-api
+    ports:
+      - "3002:3000"
+    networks:
+      - proxy_network
+    restart: unless-stopped
+
+networks:
+  proxy_network:
+    external: true
